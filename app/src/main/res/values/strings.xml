@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MACsposed</string>
+    <string name="xposed_description">LSPosed MAC Address Changer - Now subscription-free</string>
+    <string name="tile_label">Override MAC Randomization</string>
+</resources>

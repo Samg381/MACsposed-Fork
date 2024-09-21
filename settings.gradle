@@ -1,0 +1,12 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://api.xposed.info/' }  // Just add this line
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "MACsposed-Fork"
+include ':app'
